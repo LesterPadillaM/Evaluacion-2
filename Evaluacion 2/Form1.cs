@@ -26,7 +26,6 @@ namespace Evaluacion_2
             else
             {
                 Alumno Alum = new Alumno();
-
                 Alum.Nombre = txtnombre.Text;
                 Alum.Cuenta = Convert.ToInt64(txtcuenta.Text);
                 Alum.Nota1 = Convert.ToInt32(txtnota1.Text);
